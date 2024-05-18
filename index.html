@@ -8,7 +8,7 @@
       * {
         padding: 0;
         margin: 0;
-      },
+      }
       body{
         background: rgb(2, 0, 36);
         background: linear-gradient(
@@ -17,7 +17,7 @@
           rgba(243, 154, 247, 0.768032212885154) 78%,
           rgba(0, 212, 255, 1) 100%
         );
-      },
+      }
       .container {
         display: flex;
         flex-direction: column-reverse;
@@ -28,17 +28,18 @@
         align-items: center; /* To center the content vertically */
       }
       .container h1{
+        font-size: calc(1vw + 20px);
         color: #ffffff;
         background-color: blueviolet;
         padding: 1vw;
         border-radius: 10px;
-        margin: 0 auto;
-        margin-top: 5vw
-        margin-bottom: 1vw;
+        margin: 5vw 1vw;
+        margin-top: 2vw;
+        text-align: center;
       }
       .image-wrapper img {
         width: auto;
-        height: 70vh;
+        height: 60vh;
         object-fit: contain; /* Ensures the image maintains aspect ratio */
         border: 5px solid rgb(247, 0, 255);
       }
